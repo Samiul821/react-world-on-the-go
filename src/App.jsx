@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import "./App.css";
-import Countries from "./components/Countries/Countries";
+import Countries from "./components/Countries/Countries/Countries";
 
 const countriesPromise = fetch('https://restcountries.com/v3.1/all')
   .then(res => res.json())
